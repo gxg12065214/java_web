@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="baidu.css"/>
+<script src="jquery.js"></script>
+
   <title>百度一下，你就知道</title>
 </head>
 <body>
@@ -23,7 +25,7 @@
         <li><a href="#" class="shezhi">搜索历史</a></li>
       </ul></li>
       <a class="more" href="">更多产品</a>
-      </div>       
+    </div>       
      <div id="logo">
       <img src="" width="270" height="120">
       </div>     
@@ -52,4 +54,10 @@
   </div>
     </div>
 </body>
+
+<script>
+
+  console.log($('.more'));
+  console.log($('div + input').val('text'));
+</script>
 </html>
